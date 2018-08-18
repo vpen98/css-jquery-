@@ -1,0 +1,29 @@
+/*底部线条*/
+.div1{
+
+	height: 10px;
+	width: 800px;
+	left: 50%;
+	top: 50%;
+	/*上右下左*/
+	margin: 0 0 0 -400px;
+	/*绝对定位*/
+	position: absolute;
+	/*线条的渐变颜色*/
+	background: -webkit-linear-gradient(left, #7fe1cab5, #27b2d7c2, #07faefd9,#e95a5a);
+}
+/*移动的点*/
+.div2{
+	width: 10px;
+	height:100%;
+	background: -webkit-linear-gradient(left, #011c04, #ffffff00, #001102);
+	/*移动动画*/
+	/*动画keyframes名字 完成动作的时间 规定动画的速度曲线 动画开始之前的延迟 无限播放 交替播放*/
+	-webkit-animation:move_dot 4s linear 0s infinite alternate;
+}
+/*动画帧*/
+@-webkit-keyframes move_dot {
+	/*每一帧的动画状态*/
+	from { margin-left:0%; } 
+	to   { margin-left: 99%; }
+}

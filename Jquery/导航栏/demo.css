@@ -1,0 +1,33 @@
+div{
+	padding: 0;
+	margin:10px 0;
+}
+span{
+	padding-left:130px;
+	
+}
+#menu{
+	width: 300px;
+}
+
+.alink{
+	background:#555;
+	color: #fff;
+	cursor:pointer;
+
+}
+.highlight{
+	color: #fff;
+	background: green;
+}
+.alink a{
+	background: #888;
+	display: none;
+	float: left;
+	width: 300px;
+	text-decoration: none;
+	text-align: center;
+}
+a:hover{
+	background-color: red;
+}

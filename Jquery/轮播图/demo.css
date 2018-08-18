@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#igs{
+	width:600px;
+	height:375px;
+	left: 450px;
+	margin-top: 200px;
+
+	display: inline-block;
+	position:relative;
+}
+.ig{
+
+	border-radius: 5px;
+	position: absolute;
+}
+.btn{
+	width: 40px;
+	height: 50px;
+	left: -120px;
+	top: -180px;
+	font-size: 24px;
+	text-align: center;
+	background-color: #00ff3433;
+	border-radius: 10px 10px; /*边角*/
+	cursor: pointer;/*指向的时候出项手指*/
+	position: relative;
+	display: inline-block;
+
+}
+.btn2{
+left: 316px;
+}
+
+.btn p{
+	margin-top: 20%;
+}
+
+.ch{
+	left: 650px;
+	top: -60px;
+	position: relative;
+}
+
+.ch div{
+	height: 20px;
+	width:20px;
+	margin: 0 10px;
+	border-radius: 10px;
+	text-align: center;
+	color: #accf2d;
+	cursor:pointer;
+	background-color: #f25e5e66;
+	float: left;
+}
+
+.ch div:first-child{
+	background-color: red;
+}

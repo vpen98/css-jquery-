@@ -1,0 +1,41 @@
+p{
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	top:25px;
+	left: 25px;
+	position: absolute;
+	transform: rotateZ(0deg);
+
+
+}
+ul{
+	top: 30%;
+	left: 30%;
+	padding: 0;
+	position: absolute;
+	list-style: none;
+}
+li{
+	width: 80px;
+	height: 80px;
+	margin:0 20px;
+	position: relative;
+	background: red;
+	display: inline-block;
+	transform: rotateZ(45deg);
+	/*过渡*/
+	/*transition:css属性的名称 过渡所需时间 时间速度曲线 延迟多少秒*/
+	transition: transform 1s, width 1s, height 1s,background 1s; 
+}
+li:hover{
+	/*transform对元素从坐标(0,0)移动到(20,-20)；接收left和top参数,top+20px是往下移动*/
+	transform: translate(0px,0px);
+	/*沿x轴360度旋转*/
+	transform: rotateZ(360deg);
+	/*当鼠标再上面li时，宽度从80变到120，用时1s*/
+	width: 80px;
+	height: 80px;
+	background: #ffffff00;
+	margin:0 20px;
+}
